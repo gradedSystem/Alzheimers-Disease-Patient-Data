@@ -18,104 +18,102 @@ datapackage:
     path: ai_job_market_insights.csv
 ---
 
-The modern job market is witnessing a dynamic shift, where industries are adopting AI at varying levels, impacting roles across the globe. Some professions face high automation risks, while others show promising growth despite these challenges. Below, we explore the nuances of the job market through a detailed data story based on the dataset capturing various aspects of different roles, including AI adoption, automation risk, required skills, and more.
+# F1 Grand Prix Data Story: Exploring Racing Circuits
 
-## Job Titles and Their Industry Impact
+Welcome to an in-depth exploration of F1 Grand Prix racing circuits. This data story analyzes details from the `circuits.csv` file, providing insights into the geographical and structural aspects of various racing circuits.
 
-Certain roles like **Cybersecurity Analysts** and **AI Researchers** are in high demand, particularly in industries such as technology and entertainment. Despite the rise of automation, these roles are essential, especially in larger companies with substantial AI adoption. For instance, **AI Researchers** in the technology sector in Singapore see medium AI adoption levels and high automation risks, yet the role continues to be essential due to the increasing reliance on AI-driven solutions.
+## Overview of the `circuits.csv` File
 
-The distribution of roles across different industries reveals interesting patterns:
+The `circuits.csv` file contains detailed information about F1 racing circuits. The key columns are:
 
-- **Cybersecurity Analysts** are crucial in industries like entertainment and telecommunications, especially in locations like Dubai and New York, where AI adoption levels vary but the risk of automation remains high.
-- **Marketing Specialists** in the finance and technology sectors are facing a decline in job growth, particularly in large companies in Singapore and London, despite being in high-risk automation roles.
+- **circuitId**: Unique identifier for each circuit.
+- **circuitRef**: Reference name of the circuit.
+- **name**: Full name of the circuit.
+- **location**: Location within a city.
+- **country**: Country where the circuit is located.
+- **lat**: Latitude of the circuit.
+- **lng**: Longitude of the circuit.
+- **alt**: Altitude of the circuit in meters.
+- **url**: URL for more information about the circuit.
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Distribution of Job Titles Across Industries"
-  xAxis="Job_Title"
-  yAxis="Industry"
-/>
+## Key Insights
 
-## Salary and Location Dynamics
+### Distribution by Country
 
-Location plays a significant role in determining salary levels and the potential for remote work. For instance, roles based in **San Francisco** and **Dubai** often offer higher salaries compared to those in **Tokyo** or **Sydney**. Interestingly, **Remote-Friendly** jobs like **Product Managers** and **Data Scientists** are more prevalent in high-tech hubs like San Francisco and Singapore, reflecting the global shift towards flexible work environments.
+The dataset includes information about 77 unique racing circuits. Here is a breakdown of their geographical distribution by country:
 
-Key insights include:
+- **USA**: 14%
+- **France**: 9%
+- **Other**: 77%
 
-- **Sales Managers** in retail earn significantly more in Sydney than their counterparts in Berlin, despite both facing similar automation risks.
-- **UX Designers** in the education sector in San Francisco earn higher salaries, likely due to the demand for innovative design in educational technology, despite medium AI adoption.
+![Country Distribution](https://via.placeholder.com/600x300.png?text=Country+Distribution)
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Salary Distribution by Location"
-  xAxis="Location"
-  yAxis="Salary"
-/>
+### Geographical Distribution
 
-## AI Adoption and Automation Risk
+#### Latitude
 
-The dataset highlights varying levels of AI adoption and associated automation risks across different job titles. **AI Researchers** and **Software Engineers** in the manufacturing sector are particularly exposed to high AI adoption, which correlates with medium to high automation risks. However, this does not always translate to job decline, as some roles continue to evolve and remain critical despite these risks.
+The latitudes of the circuits range from -37.85 to 57.27 degrees. Here’s how they are distributed:
 
-Notable findings include:
+- **-37.85 to -28.34**: 4 circuits
+- **-28.34 to -18.83**: 3 circuits
+- **0.20 to 9.71**: 2 circuits
+- **19.22 to 28.73**: 8 circuits
+- **28.73 to 38.24**: 15 circuits
+- **38.24 to 47.75**: 30 circuits
+- **47.75 to 57.27**: 15 circuits
 
-- **HR Managers** in the finance sector in Singapore face low AI adoption but high automation risk, indicating a possible future shift towards more AI-driven HR solutions.
-- **Sales Managers** in the telecommunications industry in Dubai face high AI adoption, but with low automation risk, suggesting a balance between AI integration and human-driven sales strategies.
+![Latitude Distribution](https://via.placeholder.com/600x300.png?text=Latitude+Distribution)
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="AI Adoption vs. Automation Risk"
-  xAxis="Job_Title"
-  yAxis="AI_Adoption_Level"
-/>
+#### Longitude
 
-## Job Growth Projections
+The longitudes of the circuits range from -118.19 to 144.97 degrees. The distribution is as follows:
 
-Despite the rise in AI and automation, certain roles show promising growth, especially in sectors like finance, technology, and retail. **Product Managers** and **Cybersecurity Analysts** are among the top roles expected to see growth, particularly in locations like Singapore and Paris, where AI adoption is moderate and companies are investing in future-proofing their workforce.
+- **-118.19 to -91.87**: 8 circuits
+- **-91.87 to -65.56**: 8 circuits
+- **-65.56 to -39.24**: 3 circuits
+- **-12.93 to 13.39**: 34 circuits
+- **13.39 to 39.71**: 9 circuits
+- **39.71 to 66.02**: 5 circuits
+- **66.02 to 92.34**: 1 circuit
+- **92.34 to 118.65**: 2 circuits
+- **118.65 to 144.97**: 7 circuits
 
-On the flip side, roles like **Marketing Specialists** and **UX Designers** in specific industries are facing a decline, particularly in high automation risk environments, reflecting the shift towards AI-driven marketing and design processes.
+![Longitude Distribution](https://via.placeholder.com/600x300.png?text=Longitude+Distribution)
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Job Growth Projections"
-  xAxis="Job_Title"
-  yAxis="Growth_Projection"
-/>
+### Altitude
 
-## Required Skills in the Evolving Market
+The altitudes of the circuits range from -7 to 2227 meters. The distribution is as follows:
 
-As the job market evolves, so do the skills required to thrive in it. The dataset reveals a growing demand for skills like **Machine Learning**, **Cybersecurity**, and **Data Analysis**. These skills are particularly relevant in high AI adoption industries like finance, technology, and manufacturing.
+- **-7 to 216.40 meters**: 52 circuits
+- **216.40 to 439.80 meters**: 9 circuits
+- **439.80 to 663.20 meters**: 9 circuits
+- **663.20 to 886.60 meters**: 4 circuits
+- **1110.00 to 1333.40 meters**: 1 circuit
+- **1333.40 to 1556.80 meters**: 1 circuit
+- **2003.60 to 2227.00 meters**: 1 circuit
 
-Interestingly, even in roles facing high automation risks, such as **Marketing Specialists** and **Sales Managers**, there is still a significant demand for specialized skills like **Python** and **Project Management**. This suggests that while automation is on the rise, the need for skilled professionals who can manage and implement AI solutions remains strong.
+![Altitude Distribution](https://via.placeholder.com/600x300.png?text=Altitude+Distribution)
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="In-Demand Skills Across Job Titles"
-  xAxis="Required_Skills"
-  yAxis="Job_Title"
-/>
+## Example Circuit
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Salaries"
-  xAxis="Job_Title"
-  yAxis="Salary_USD"
-/>
+Here’s an example of a famous circuit from the dataset:
+
+- **Name**: Albert Park Grand Prix Circuit
+- **Location**: Melbourne
+- **Country**: Australia
+- **Latitude**: -37.8497
+- **Longitude**: 144.968
+- **Altitude**: 10 meters
+- **URL**: [Albert Park Circuit](http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit)
+
+![Albert Park](https://via.placeholder.com/600x300.png?text=Albert+Park+Grand+Prix+Circuit)
 
 ## Conclusion
 
-The job market is at a crossroads, with AI and automation reshaping the landscape across industries. While some roles face decline, others are evolving, with new skill sets emerging as critical for future success. Companies and professionals alike must adapt to these changes, leveraging the opportunities that AI presents while mitigating the risks associated with automation.
+The F1 Grand Prix dataset provides valuable insights into the geographical distribution and characteristics of racing circuits. From the latitude and longitude distributions to the altitude variations, this data helps us understand the diverse range of circuits that host the thrilling F1 races.
 
-As the data suggests, the future of work is not just about the rise of AI, but about how industries, locations, and individual roles can adapt and thrive in this new era. The key will be in balancing AI integration with human expertise to drive growth and innovation across the global job market.
+For further exploration and data analysis, you can access the full dataset on [Kaggle](https://www.kaggle.com/datasets/harshitstark/f1-grandprix-datavault/data).
 
+---
+
+Feel free to adjust the placeholder images with actual charts or images from your analysis.
