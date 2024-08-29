@@ -1,10 +1,10 @@
 {
-    "title": "AI Job Market",
+    "title": "Alzheimer Disease Patient Data",
   "description": "You can use this template repository to bootstrap your own DataHub Cloud site.",
   "logo": "eddy-favicon-color.svg",
   "navbarTitle": {
     "logo": "eddy-favicon-color.svg",
-    "text": "AI Job Market analytics"
+    "text": "Alzheimer Disease Patient Data"
   },
   "author": {
     "name": "Yedige Ashmet",
