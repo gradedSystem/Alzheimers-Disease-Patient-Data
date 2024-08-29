@@ -31,7 +31,7 @@ The distribution of roles across different industries reveals interesting patter
 
 <PlotlyBarChart
   data={{
-    url: 'industry_impact.csv'
+    url: 'ai_job_market_insights.csv'
   }}
   title="Distribution of Job Titles Across Industries"
   xAxis="Job Title"
@@ -49,7 +49,7 @@ Key insights include:
 
 <PlotlyBarChart
   data={{
-    url: 'salary_location.csv'
+    url: 'ai_job_market_insights.csv'
   }}
   title="Salary Distribution by Location"
   xAxis="Location"
@@ -67,7 +67,7 @@ Notable findings include:
 
 <PlotlyBarChart
   data={{
-    url: 'ai_automation_risk.csv'
+    url: 'ai_job_market_insights.csv'
   }}
   title="AI Adoption vs. Automation Risk"
   xAxis="Job Title"
@@ -82,7 +82,7 @@ On the flip side, roles like **Marketing Specialists** and **UX Designers** in s
 
 <PlotlyBarChart
   data={{
-    url: 'job_growth.csv'
+    url: 'ai_job_market_insights.csv'
   }}
   title="Job Growth Projections"
   xAxis="Job Title"
@@ -97,7 +97,7 @@ Interestingly, even in roles facing high automation risks, such as **Marketing S
 
 <PlotlyBarChart
   data={{
-    url: 'required_skills.csv'
+    url: 'ai_job_market_insights.csv'
   }}
   title="In-Demand Skills Across Job Titles"
   xAxis="Required Skills"
