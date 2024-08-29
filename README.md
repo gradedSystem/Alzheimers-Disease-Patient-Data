@@ -117,7 +117,3 @@ For a comprehensive view of patient demographics, including age, gender, and oth
 ## Conclusion
 
 The analysis of the Alzheimer’s disease patient data provides valuable insights into how age, gender, and health metrics relate to the diagnosis. Further investigation into these patterns can aid in understanding the risk factors associated with Alzheimer's disease and potentially guide future research and treatment approaches.
-
----
-
-Feel free to adjust the charts and tables as needed to fit your data and visualization preferences.
