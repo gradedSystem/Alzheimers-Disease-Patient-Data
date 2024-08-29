@@ -104,6 +104,15 @@ Interestingly, even in roles facing high automation risks, such as **Marketing S
   yAxis="Job_Title"
 />
 
+<PlotlyBarChart
+  data={{
+    url: 'ai_job_market_insights.csv'
+  }}
+  title="Salaries"
+  xAxis="Job_Title"
+  yAxis="Salary_USD"
+/>
+
 ## Conclusion
 
 The job market is at a crossroads, with AI and automation reshaping the landscape across industries. While some roles face decline, others are evolving, with new skill sets emerging as critical for future success. Companies and professionals alike must adapt to these changes, leveraging the opportunities that AI presents while mitigating the risks associated with automation.
