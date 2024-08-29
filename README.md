@@ -29,15 +29,6 @@ The distribution of roles across different industries reveals interesting patter
 - **Cybersecurity Analysts** are crucial in industries like entertainment and telecommunications, especially in locations like Dubai and New York, where AI adoption levels vary but the risk of automation remains high.
 - **Marketing Specialists** in the finance and technology sectors are facing a decline in job growth, particularly in large companies in Singapore and London, despite being in high-risk automation roles.
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Distribution of Job Titles Across Industries"
-  xAxis="Job Title"
-  yAxis="Industry"
-/>
-
 ## Salary and Location Dynamics
 
 Location plays a significant role in determining salary levels and the potential for remote work. For instance, roles based in **San Francisco** and **Dubai** often offer higher salaries compared to those in **Tokyo** or **Sydney**. Interestingly, **Remote-Friendly** jobs like **Product Managers** and **Data Scientists** are more prevalent in high-tech hubs like San Francisco and Singapore, reflecting the global shift towards flexible work environments.
@@ -46,15 +37,6 @@ Key insights include:
 
 - **Sales Managers** in retail earn significantly more in Sydney than their counterparts in Berlin, despite both facing similar automation risks.
 - **UX Designers** in the education sector in San Francisco earn higher salaries, likely due to the demand for innovative design in educational technology, despite medium AI adoption.
-
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Salary Distribution by Location"
-  xAxis="Location"
-  yAxis="Salary"
-/>
 
 ## AI Adoption and Automation Risk
 
@@ -65,44 +47,17 @@ Notable findings include:
 - **HR Managers** in the finance sector in Singapore face low AI adoption but high automation risk, indicating a possible future shift towards more AI-driven HR solutions.
 - **Sales Managers** in the telecommunications industry in Dubai face high AI adoption, but with low automation risk, suggesting a balance between AI integration and human-driven sales strategies.
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="AI Adoption vs. Automation Risk"
-  xAxis="Job Title"
-  yAxis="AI Adoption Level"
-/>
-
 ## Job Growth Projections
 
 Despite the rise in AI and automation, certain roles show promising growth, especially in sectors like finance, technology, and retail. **Product Managers** and **Cybersecurity Analysts** are among the top roles expected to see growth, particularly in locations like Singapore and Paris, where AI adoption is moderate and companies are investing in future-proofing their workforce.
 
 On the flip side, roles like **Marketing Specialists** and **UX Designers** in specific industries are facing a decline, particularly in high automation risk environments, reflecting the shift towards AI-driven marketing and design processes.
 
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="Job Growth Projections"
-  xAxis="Job Title"
-  yAxis="Growth Projection"
-/>
-
 ## Required Skills in the Evolving Market
 
 As the job market evolves, so do the skills required to thrive in it. The dataset reveals a growing demand for skills like **Machine Learning**, **Cybersecurity**, and **Data Analysis**. These skills are particularly relevant in high AI adoption industries like finance, technology, and manufacturing.
 
 Interestingly, even in roles facing high automation risks, such as **Marketing Specialists** and **Sales Managers**, there is still a significant demand for specialized skills like **Python** and **Project Management**. This suggests that while automation is on the rise, the need for skilled professionals who can manage and implement AI solutions remains strong.
-
-<PlotlyBarChart
-  data={{
-    url: 'ai_job_market_insights.csv'
-  }}
-  title="In-Demand Skills Across Job Titles"
-  xAxis="Required Skills"
-  yAxis="Job Title"
-/>
 
 ## Conclusion
 
