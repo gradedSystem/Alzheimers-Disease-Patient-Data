@@ -1,21 +1,21 @@
 ---
 datapackage:
-  title: Impact of AI Adoption and Automation on Global Job Market
-  description: An in-depth analysis of how AI adoption, automation risk, and required skills are reshaping industries, job roles, and growth prospects across various locations globally
+  title: Alzheimer's Disease Patient Data
+  description: This dataset contains health records for 2,149 patients identified by unique ID numbers (4751-6900), providing extensive information on demographics, lifestyle, medical history, clinical measurements, cognitive and functional assessments, symptoms, and diagnostic data related to Alzheimer's disease.
   created: 2024-08-29
   updated: 2024-08-29
   licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
+  - path: https://creativecommons.org/licenses/by/4.0/
+    title: Attribution 4.0 International (CC BY 4.0)
   sources:
-  - path: https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
-    title: AI Powered Job Market Insight
+  - path: https://www.kaggle.com/datasets/muhammadehsan02/alzheimers-disease-patient-data
+    title: Alzheimer's Disease Patient Data
   resources:
-  - name: ai-job-market-insight
-    title: AI Job Market Insight
-    description: C02 PPM per decade
+  - name: alzheimer-disease-patient-data
+    title: Alzheimer's Disease Patient Data
+    description: This dataset is a comprehensive collection of health records for 2,149 patients who have been diagnosed with or are at risk for Alzheimer's disease. Each patient in the dataset is uniquely identified with an ID number ranging from 4751 to 6900. The dataset covers a wide range of information that is crucial for understanding the various factors associated with Alzheimer's disease. It includes demographic details, lifestyle habits, medical history, clinical measurements, cognitive and functional assessments, symptoms, and diagnostic information.
     lastModified: 2024-08-29
-    path: ai_job_market_insights.csv
+    path: alzheimers_disease_patient_data.csv
 ---
 
 # Alzheimer's Disease Patient Data Analysis
