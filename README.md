@@ -22,7 +22,7 @@ datapackage:
 
 ## Overview
 
-This analysis explores a dataset related to Alzheimer's disease patients. We examine various factors, including age, gender, health metrics, and diagnostic information, to uncover trends and patterns in the dataset.
+This analysis explores a dataset related to Alzheimer's disease patients. We examine various factors, including age, gender, health metrics, and diagnostic information, to uncover trends and patterns.
 
 ## Age Distribution
 
@@ -42,49 +42,49 @@ Age is a significant factor in understanding Alzheimer's disease. The chart belo
 
 The distribution of gender among patients is illustrated in the chart below. This provides insights into the gender proportion within the dataset:
 
-<PlotlyPieChart
+<PlotlyBarChart
   data={{
     file: 'alzheimers_disease_patient_data.csv',
     columns: ['Gender', 'PatientID']
   }}
   title="Gender Distribution of Patients"
-  labels="Gender"
-  values="Count"
+  xAxis="Gender"
+  yAxis="Count"
 />
 
 ## BMI and Alzheimer's Diagnosis
 
-Body Mass Index (BMI) is an important health metric. The following chart shows the relationship between BMI and Alzheimer's diagnosis status:
+Body Mass Index (BMI) is an important health metric. The following chart shows the distribution of BMI among Alzheimer's patients. This helps in understanding how BMI varies across different diagnostic statuses:
 
-<PlotlyScatterPlot
+<PlotlyBarChart
   data={{
     file: 'alzheimers_disease_patient_data.csv',
     columns: ['BMI', 'Diagnosis']
   }}
-  title="BMI vs. Alzheimer's Diagnosis"
+  title="BMI Distribution by Alzheimer's Diagnosis"
   xAxis="BMI"
-  yAxis="Diagnosis"
+  yAxis="Count"
 />
 
 ## Age vs. MMSE Scores
 
-Mini-Mental State Examination (MMSE) scores are used to assess cognitive function. The chart below examines the relationship between patient age and MMSE scores:
+Mini-Mental State Examination (MMSE) scores are used to assess cognitive function. The chart below examines the distribution of MMSE scores across different age groups:
 
-<PlotlyScatterPlot
+<PlotlyBarChart
   data={{
     file: 'alzheimers_disease_patient_data.csv',
     columns: ['Age', 'MMSE']
   }}
-  title="Age vs. MMSE Scores"
+  title="MMSE Scores Distribution by Age"
   xAxis="Age"
-  yAxis="MMSE"
+  yAxis="MMSE Scores"
 />
 
 ## Distribution of Health Metrics
 
 The dataset includes various health metrics, such as cholesterol levels and blood pressure. The following charts display the distribution of these metrics among patients:
 
-<PlotlyHistograms
+<PlotlyBarChart
   data={{
     file: 'alzheimers_disease_patient_data.csv',
     columns: ['CholesterolTotal', 'PatientID']
@@ -94,10 +94,10 @@ The dataset includes various health metrics, such as cholesterol levels and bloo
   yAxis="Count"
 />
 
-<PlotlyHistograms
+<PlotlyBarChart
   data={{
     file: 'alzheimers_disease_patient_data.csv',
-    columns: ['SystolicBP', 'DiastolicBP', 'PatientID']
+    columns: ['SystolicBP', 'DiastolicBP']
   }}
   title="Blood Pressure Distribution"
   xAxis="Blood Pressure"
