@@ -28,7 +28,7 @@ This analysis explores a dataset related to Alzheimer's disease patients. We exa
 
 Age is a significant factor in understanding Alzheimer's disease. The chart below displays the distribution of patients across different age ranges:
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
@@ -41,7 +41,7 @@ Age is a significant factor in understanding Alzheimer's disease. The chart belo
 
 The distribution of gender among patients is illustrated in the chart below. This provides insights into the gender proportion within the dataset:
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
@@ -54,7 +54,7 @@ The distribution of gender among patients is illustrated in the chart below. Thi
 
 Body Mass Index (BMI) is an important health metric. The following chart shows the distribution of BMI among Alzheimer's patients. This helps in understanding how BMI varies across different diagnostic statuses:
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
@@ -67,7 +67,7 @@ Body Mass Index (BMI) is an important health metric. The following chart shows t
 
 Mini-Mental State Examination (MMSE) scores are used to assess cognitive function. The chart below examines the distribution of MMSE scores across different age groups:
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
@@ -80,7 +80,7 @@ Mini-Mental State Examination (MMSE) scores are used to assess cognitive functio
 
 The dataset includes various health metrics, such as cholesterol levels and blood pressure. The following charts display the distribution of these metrics among patients:
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
@@ -89,7 +89,7 @@ The dataset includes various health metrics, such as cholesterol levels and bloo
   yAxis="PatientID"
 />
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
     url: 'alzheimers_disease_patient_data.csv'
   }}
