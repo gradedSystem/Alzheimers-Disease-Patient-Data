@@ -30,12 +30,11 @@ Age is a significant factor in understanding Alzheimer's disease. The chart belo
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['Age', 'PatientID']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="Age Distribution of Patients"
   xAxis="Age"
-  yAxis="Count"
+  yAxis="PatientID"
 />
 
 ## Gender Breakdown
@@ -44,12 +43,11 @@ The distribution of gender among patients is illustrated in the chart below. Thi
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['Gender', 'PatientID']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="Gender Distribution of Patients"
   xAxis="Gender"
-  yAxis="Count"
+  yAxis="PatientID"
 />
 
 ## BMI and Alzheimer's Diagnosis
@@ -58,12 +56,11 @@ Body Mass Index (BMI) is an important health metric. The following chart shows t
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['BMI', 'Diagnosis']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="BMI Distribution by Alzheimer's Diagnosis"
   xAxis="BMI"
-  yAxis="Count"
+  yAxis="Diagnosis"
 />
 
 ## Age vs. MMSE Scores
@@ -72,12 +69,11 @@ Mini-Mental State Examination (MMSE) scores are used to assess cognitive functio
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['Age', 'MMSE']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="MMSE Scores Distribution by Age"
   xAxis="Age"
-  yAxis="MMSE Scores"
+  yAxis="MMSE"
 />
 
 ## Distribution of Health Metrics
@@ -86,22 +82,20 @@ The dataset includes various health metrics, such as cholesterol levels and bloo
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['CholesterolTotal', 'PatientID']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="Cholesterol Levels Distribution"
   xAxis="CholesterolTotal"
-  yAxis="Count"
+  yAxis="PatientID"
 />
 
 <PlotlyBarChart
   data={{
-    url: 'alzheimers_disease_patient_data.csv',
-    columns: ['SystolicBP', 'DiastolicBP']
+    url: 'alzheimers_disease_patient_data.csv'
   }}
   title="Blood Pressure Distribution"
   xAxis="Blood Pressure"
-  yAxis="Count"
+  yAxis="DiastolicBP"
 />
 
 ## Patient Demographics
