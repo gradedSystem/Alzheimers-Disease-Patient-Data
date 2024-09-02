@@ -30,7 +30,7 @@ Age is a significant factor in understanding Alzheimer's disease. The chart belo
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['Age', 'PatientID']
   }}
   title="Age Distribution of Patients"
@@ -44,7 +44,7 @@ The distribution of gender among patients is illustrated in the chart below. Thi
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['Gender', 'PatientID']
   }}
   title="Gender Distribution of Patients"
@@ -58,7 +58,7 @@ Body Mass Index (BMI) is an important health metric. The following chart shows t
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['BMI', 'Diagnosis']
   }}
   title="BMI Distribution by Alzheimer's Diagnosis"
@@ -72,7 +72,7 @@ Mini-Mental State Examination (MMSE) scores are used to assess cognitive functio
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['Age', 'MMSE']
   }}
   title="MMSE Scores Distribution by Age"
@@ -86,7 +86,7 @@ The dataset includes various health metrics, such as cholesterol levels and bloo
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['CholesterolTotal', 'PatientID']
   }}
   title="Cholesterol Levels Distribution"
@@ -96,7 +96,7 @@ The dataset includes various health metrics, such as cholesterol levels and bloo
 
 <PlotlyBarChart
   data={{
-    file: 'alzheimers_disease_patient_data.csv',
+    url: 'alzheimers_disease_patient_data.csv',
     columns: ['SystolicBP', 'DiastolicBP']
   }}
   title="Blood Pressure Distribution"
@@ -110,7 +110,7 @@ For a comprehensive view of patient demographics, including age, gender, and oth
 
 <FlatUiTable
   data={{
-    file: 'alzheimers_disease_patient_data.csv'
+    url: 'alzheimers_disease_patient_data.csv'
   }}
 />
 
